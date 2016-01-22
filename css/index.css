@@ -1,0 +1,33 @@
+body {
+	background: #feb7b7;
+	font-family: avenir;
+}
+
+h1 {
+	color: #ffffff;
+}
+
+p {
+	color: #ffffff;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+a:active {
+	color: #000000;
+}
