@@ -200,15 +200,15 @@ body {
 #petalleftm {
 	width: 35px;
 	height: 17px;
-	margin-left: 228px;
+	margin-left: 227px;
 	margin-top: 205px;
 	background: #ce9aff;
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
-	-ms-transform: rotate(80deg); /* IE 9 */
-    -webkit-transform: rotate(80deg); /* Chrome, Safari, Opera */
-    transform: rotate(80deg);
+	-ms-transform: rotate(85deg); /* IE 9 */
+    -webkit-transform: rotate(85deg); /* Chrome, Safari, Opera */
+    transform: rotate(85deg);
     position: absolute;
 }
 
@@ -216,15 +216,15 @@ body {
 #petalrightm {
 	width: 35px;
 	height: 17px;
-	margin-left: 247px;
+	margin-left: 248px;
 	margin-top: 205px;
 	background: #ce9aff;
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
-	-ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
+	-ms-transform: rotate(95deg); /* IE 9 */
+    -webkit-transform: rotate(95deg); /* Chrome, Safari, Opera */
+    transform: rotate(95deg);
     position: absolute;
 }
 
