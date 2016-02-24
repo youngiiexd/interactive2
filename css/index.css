@@ -3,6 +3,11 @@ body {
 	font-family: avenir;
 }
 
+#venus {
+	margin-left: 1050px;
+	margin-top: -70px;
+}
+
 h1 {
 	color: #ffffff;
 }
