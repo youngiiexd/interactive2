@@ -161,7 +161,7 @@ body {
     -ms-transform: skewY(-45deg); /* IE 9 */
     -webkit-transform: skewY(-45deg); /* Safari */
     transform: skewY(-45deg);
-    background: #2bf7fc;
+    background: #88ffea;
     z-index: 2;
     position: absolute;
 }
@@ -178,7 +178,7 @@ body {
     -ms-transform: skewY(-45deg); /* IE 9 */
     -webkit-transform: skewY(-45deg); /* Safari */
     transform: skewY(-45deg);
-    background: #2bf7fc;
+    background: #88ffea;
     z-index: 3;
     position: absolute;
 }
