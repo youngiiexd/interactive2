@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "bebas";
+    src: url("../fonts/BebasNeue.otf");
+}
+
+@font-face {
+    font-family: "scala";
+    src: url("../fonts/ScalaSans.otf");
+}
+
+body {
+	width: 90%;
+	padding: 0;
+	margin: 0 auto;
+}
+img {
+	width: 100%;
+}
+
+#header {
+	width: 100%;
+	position: relative;
+	margin: 3em;
+}
+
+.logo {
+	font-family: 'bebas', sans-serif;
+	font-weight: lighter;
+	font-size: 50px;
+	position: relative;
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+
+#sidebar {
+	font-family: 'bebas', sans-serif;
+	font-size: 25px;
+	position: relative;
+	float: left;
+	right: 5px;
+	top: 22px;
+}
+
+.navitem {
+	margin: 0 10px 0 10px;
+}
+
+.rightside {
+	position: absolute;
+	top: 30px;
+	right: 60px;
+}
+
+#rightnav{
+	font-family: 'bebas', sans-serif;
+	font-size: 18px;
+	margin: 0 10px 0 10px;
+}
+
+/*
+.line {
+    display: block;
+    width: 120px;
+    height: 1px;
+    margin: 0 0 15px;
+    background-color: #cccccc;
+    margin-left: 20px;
+}
+*/
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #c9c9c9;
+}
+
+a:active {
+	color: #000000;
+}
+
+.img-grid {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+.product {
+	width: 30%;
+	position: relative;
+	float: left;
+	margin: 10px;
+}
+
+/*#book {
+	position: relative;
+	width : 50%;
+}*/
+
+/*media queries*/
+
+@media screen and (max-width: 1100px) {
+
+	.logo{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 805px) {
+
+	.rightside{
+		position: absolute;
+		width: 100%;
+		top: 9em;
+		left: -0.3em;
+	}
+}
+
+/* Image
+------------------------------------------------- */
+
+.l {
+	width: 95%;
+	left: 50px;
+	text-align: center;
+	margin: 3em;
+}
+
+#itemlist {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+/*
+.img-grid {
+	text-align: center;
+}
+
+.a {
+	width: 30%;
+	margin: 0 2.3em 3em 0;
+}
+
+.b {
+	width: 30%;
+	margin: 0 2.3em 3em 0;
+}
+
+.c {
+	width: 30%;
+	margin: 0 2.3em 3em 0;
+}
+
+.d {
+	width: 30%;
+	margin: 0 2.3em 3em 0;
+}
+
+.e {
+	width: 30%;
+	margin: 0 2.3em 3em 0;
+}
+
+.f {
+	width: 30%;
+	margin: 0 2.3em 3em 0;
+}
+
+.g {
+	width: 30%;
+	margin: 0 2.3em 3em 0;
+}
+
+.h {
+	width: 30%;
+	margin: 0 2.3em 3em 0;
+}
+
+.i {
+	width: 30%;
+	margin: 0 2.3em 3em 0;
+}*/
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	/* text */
+	
+	h1, h2 {
+		color: blue;
+	}
+
+	
+	/* image */
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+	/* text */
+
+	h1, h2 {
+		color: black;
+	}
+	
+	/* image */
+
+	.l {
+		margin-top: 100px;
+	}
+}
+
+
