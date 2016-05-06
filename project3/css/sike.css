@@ -102,10 +102,16 @@ a:active {
 	width: 30%;
 	position: relative;
 	float: left;
-	margin: 1em;
+	margin-left: 2.5em;
+	margin-top: 1em;
 	font-family: avenir;
-	font-size: 1em;
+	font-size: 10em;
 	text-align: center;
+}
+
+.explain {
+	font-family: avenir;
+	font-size: 3em;
 }
 
 /*#book {

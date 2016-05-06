@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "bebas";
+    src: url("../fonts/BebasNeue.otf");
+}
+
+#header {
+	font-family: "bebas";
+	font-size: 15px;
+	margin: 3em;
+}
+
+#sidebar {
+	font-family: 'bebas', sans-serif;
+	font-size: 25px;
+	line-height: 35px;
+	margin: 2em;
+	position:absolute;
+}
+
+#signin {
+	font-family: 'bebas', sans-serif;
+	font-size: 18px;
+	line-height: 35px;
+	margin: 2em;
+	margin-left: 100px;
+	margin-top: -250px;
+	position: absolute;
+}
+
+#mybag {
+	font-family: 'bebas', sans-serif;
+	font-size: 18px;
+	line-height: 35px;
+	margin-left: 130px;
+	margin-top: -250px;
+	position: absolute;
+}
+
+#mainpic {
+	margin-left: 280px;
+	margin-top: 150px;
+	width:550px;
+	position: absolute;
+}
+
+@import url();
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+	
+/* Text
+-------------------------------------------------- */
+
+.text {
+	padding-left: 2.25em;
+	padding-right: 2.25;
+	padding-top: 1em;
+	margin: 0;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 100;
+	line-height: 1.5em;
+}
+
+h1, h2 {
+	color: black;
+}
+
+/* Image
+------------------------------------------------- */
+
+.l {
+	width: 100%;
+}
+
+.mobile-only {
+	display: none;
+}
+
+
+.img-grid {
+	text-align: center;
+}
+
+.s {
+	width: 20%;
+}
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	/* text */
+	
+	h1, h2 {
+		color: black;
+	}
+
+	h1 {
+		font-size: 4em;
+		font-weight: 900;
+	}
+	
+	/* image */
+
+	.s {
+		width: 40%;
+	}
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+	/* text */
+
+	h1, h2 {
+		color: black;
+	}
+	
+	/* image */
+	
+	.mobile-only {
+		display: block;
+	}
+	
+	.s {
+		width: 40%;
+	}
+}
+
+/* permalink
+-------------------------------------------------- */
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #c9c9c9;
+}
+
+a:active {
+	color: #000000;
+}
