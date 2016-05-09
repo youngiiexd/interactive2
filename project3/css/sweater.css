@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: "scala";
-    src: url("../fonts/ScalaSans.otf");
+    font-family: "gidole";
+    src: url("../fonts/gidole.otf");
 }
 
 body {
@@ -30,8 +30,8 @@ img {
 }
 
 .logo {
-	font-family: 'bebas', sans-serif;
-	font-weight: lighter;
+	font-family: gidole;
+	font-weight: bold;
 	font-size: 50px;
 	position: relative;
 	float: left;
@@ -40,7 +40,7 @@ img {
 
 
 #sidebar {
-	font-family: 'bebas', sans-serif;
+	font-family: gidole;
 	font-size: 25px;
 	position: relative;
 	float: left;
@@ -59,7 +59,7 @@ img {
 }
 
 #rightnav{
-	font-family: 'bebas', sans-serif;
+	font-family: gidole;
 	font-size: 18px;
 	margin: 0 10px 0 10px;
 }
